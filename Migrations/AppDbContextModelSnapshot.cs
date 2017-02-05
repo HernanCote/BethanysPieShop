@@ -35,7 +35,7 @@ namespace BethanysPieShop.Migrations
                     b.Property<int>("PieId")
                         .ValueGeneratedOnAdd();
 
-                    b.Property<string>("AllegaryInformation");
+                    b.Property<string>("AllergyInformation");
 
                     b.Property<int>("CategoryId");
 
@@ -62,12 +62,37 @@ namespace BethanysPieShop.Migrations
                     b.ToTable("Pies");
                 });
 
+            modelBuilder.Entity("BethanysPieShop.Models.ShoppingCartItem", b =>
+                {
+                    b.Property<int>("ShoppingCartItemId")
+                        .ValueGeneratedOnAdd();
+
+                    b.Property<int>("Amount");
+
+                    b.Property<int?>("PieId");
+
+                    b.Property<string>("ShoppingCartId");
+
+                    b.HasKey("ShoppingCartItemId");
+
+                    b.HasIndex("PieId");
+
+                    b.ToTable("ShoppingCartItems");
+                });
+
             modelBuilder.Entity("BethanysPieShop.Models.Pie", b =>
                 {
                     b.HasOne("BethanysPieShop.Models.Category", "Category")
                         .WithMany("Pies")
                         .HasForeignKey("CategoryId")
                         .OnDelete(DeleteBehavior.Cascade);
+                });
+
+            modelBuilder.Entity("BethanysPieShop.Models.ShoppingCartItem", b =>
+                {
+                    b.HasOne("BethanysPieShop.Models.Pie", "Pie")
+                        .WithMany()
+                        .HasForeignKey("PieId");
                 });
         }
     }

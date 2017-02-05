@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v1.0/",
-    "signature": "aa85455ebb441fc7e7ad411e9ddc854d22ae7ef0"
+    "signature": "598a58f199ec7fe80cf77055c7355467c6687e63"
   },
   "compilationOptions": {
     "defines": [
@@ -26,6 +26,9 @@
           "Microsoft.EntityFrameworkCore.Tools.DotNet": "1.1.0-preview4-final",
           "Microsoft.Extensions.Configuration.Json": "1.1.0",
           "Microsoft.Extensions.Logging.Console": "1.1.0",
+          "Microsoft.AspNetCore.Session": "1.1.0",
+          "Microsoft.Extensions.Caching.Memory": "1.1.0",
+          "Microsoft.AspNetCore.Http.Extensions": "1.1.0",
           "Microsoft.NETCore.App": "1.1.0"
         },
         "compile": {
@@ -513,6 +516,19 @@
         },
         "compile": {
           "lib/netstandard1.3/Microsoft.AspNetCore.Server.Kestrel.dll": {}
+        }
+      },
+      "Microsoft.AspNetCore.Session/1.1.0": {
+        "dependencies": {
+          "Microsoft.AspNetCore.DataProtection": "1.1.0",
+          "Microsoft.AspNetCore.Http.Abstractions": "1.1.0",
+          "Microsoft.Extensions.Caching.Abstractions": "1.1.0",
+          "Microsoft.Extensions.Logging.Abstractions": "1.1.0",
+          "Microsoft.Extensions.Options": "1.1.0",
+          "NETStandard.Library": "1.6.1"
+        },
+        "compile": {
+          "lib/netstandard1.3/Microsoft.AspNetCore.Session.dll": {}
         }
       },
       "Microsoft.AspNetCore.StaticFiles/1.1.0": {
@@ -2859,6 +2875,9 @@
           "Microsoft.EntityFrameworkCore.Tools.DotNet": "1.1.0-preview4-final",
           "Microsoft.Extensions.Configuration.Json": "1.1.0",
           "Microsoft.Extensions.Logging.Console": "1.1.0",
+          "Microsoft.AspNetCore.Session": "1.1.0",
+          "Microsoft.Extensions.Caching.Memory": "1.1.0",
+          "Microsoft.AspNetCore.Http.Extensions": "1.1.0",
           "Microsoft.NETCore.App": "1.1.0"
         },
         "runtime": {
@@ -3346,6 +3365,19 @@
         },
         "runtime": {
           "lib/netstandard1.3/Microsoft.AspNetCore.Server.Kestrel.dll": {}
+        }
+      },
+      "Microsoft.AspNetCore.Session/1.1.0": {
+        "dependencies": {
+          "Microsoft.AspNetCore.DataProtection": "1.1.0",
+          "Microsoft.AspNetCore.Http.Abstractions": "1.1.0",
+          "Microsoft.Extensions.Caching.Abstractions": "1.1.0",
+          "Microsoft.Extensions.Logging.Abstractions": "1.1.0",
+          "Microsoft.Extensions.Options": "1.1.0",
+          "NETStandard.Library": "1.6.1"
+        },
+        "runtime": {
+          "lib/netstandard1.3/Microsoft.AspNetCore.Session.dll": {}
         }
       },
       "Microsoft.AspNetCore.StaticFiles/1.1.0": {
@@ -5790,6 +5822,11 @@
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-PbVYQUVxOwtrl9YCnw8ykXSufELVeEuASYahVh1F7B4LYVtcqwyV5+FhXlJkboGM4ozKMrdhB5w/tlLLcmHxNA=="
+    },
+    "Microsoft.AspNetCore.Session/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-69jU5B/xMqHqSN5e/57hGB2NdFMlYp6ATrXJGeAkWqcrRBuMuD4z/Sc22iq4qeI13kdcJ+bIDYNmK5gPNik2xQ=="
     },
     "Microsoft.AspNetCore.StaticFiles/1.1.0": {
       "type": "package",
