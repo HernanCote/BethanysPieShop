@@ -203,6 +203,8 @@
 --resource:"C:\dev\dotnetcore\BethanysPieShop\src\BethanysPieShop\obj\Debug\netcoreapp1.0\BethanysPieShopdotnet-compile.deps.json",BethanysPieShop.deps.json
 C:\dev\dotnetcore\BethanysPieShop\src\BethanysPieShop\Program.cs
 C:\dev\dotnetcore\BethanysPieShop\src\BethanysPieShop\Startup.cs
+C:\dev\dotnetcore\BethanysPieShop\src\BethanysPieShop\Components\ShoppingCartSummary.cs
+C:\dev\dotnetcore\BethanysPieShop\src\BethanysPieShop\Controllers\HomeController.cs
 C:\dev\dotnetcore\BethanysPieShop\src\BethanysPieShop\Controllers\PieController.cs
 C:\dev\dotnetcore\BethanysPieShop\src\BethanysPieShop\Controllers\ShoppingCartController.cs
 C:\dev\dotnetcore\BethanysPieShop\src\BethanysPieShop\Migrations\20170205210821_Initial.cs
@@ -224,5 +226,6 @@ C:\dev\dotnetcore\BethanysPieShop\src\BethanysPieShop\Models\Pie.cs
 C:\dev\dotnetcore\BethanysPieShop\src\BethanysPieShop\Models\PieRepository.cs
 C:\dev\dotnetcore\BethanysPieShop\src\BethanysPieShop\Models\ShoppingCart.cs
 C:\dev\dotnetcore\BethanysPieShop\src\BethanysPieShop\Models\ShoppingCartItem.cs
+C:\dev\dotnetcore\BethanysPieShop\src\BethanysPieShop\ViewModels\HomeViewModel.cs
 C:\dev\dotnetcore\BethanysPieShop\src\BethanysPieShop\ViewModels\PiesListViewModel.cs
 C:\dev\dotnetcore\BethanysPieShop\src\BethanysPieShop\ViewModels\ShoppingCartViewModel.cs
