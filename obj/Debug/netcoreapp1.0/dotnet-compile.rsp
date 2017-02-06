@@ -215,6 +215,8 @@ C:\dev\dotnetcore\BethanysPieShop\src\BethanysPieShop\Migrations\20170205220338_
 C:\dev\dotnetcore\BethanysPieShop\src\BethanysPieShop\Migrations\20170205220338_AddShoppingCartItem.Designer.cs
 C:\dev\dotnetcore\BethanysPieShop\src\BethanysPieShop\Migrations\20170205220839_FixedBug.cs
 C:\dev\dotnetcore\BethanysPieShop\src\BethanysPieShop\Migrations\20170205220839_FixedBug.Designer.cs
+C:\dev\dotnetcore\BethanysPieShop\src\BethanysPieShop\Migrations\20170206024209_ChangedTableNames.cs
+C:\dev\dotnetcore\BethanysPieShop\src\BethanysPieShop\Migrations\20170206024209_ChangedTableNames.Designer.cs
 C:\dev\dotnetcore\BethanysPieShop\src\BethanysPieShop\Migrations\AppDbContextModelSnapshot.cs
 C:\dev\dotnetcore\BethanysPieShop\src\BethanysPieShop\Models\AppDbContext.cs
 C:\dev\dotnetcore\BethanysPieShop\src\BethanysPieShop\Models\Category.cs
