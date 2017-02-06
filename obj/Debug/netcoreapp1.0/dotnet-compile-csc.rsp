@@ -199,6 +199,7 @@
 -resource:"C:\dev\dotnetcore\BethanysPieShop\src\BethanysPieShop\obj\Debug\netcoreapp1.0\BethanysPieShopdotnet-compile.deps.json",BethanysPieShop.deps.json
 "C:\dev\dotnetcore\BethanysPieShop\src\BethanysPieShop\Program.cs"
 "C:\dev\dotnetcore\BethanysPieShop\src\BethanysPieShop\Startup.cs"
+"C:\dev\dotnetcore\BethanysPieShop\src\BethanysPieShop\Components\CategoryMenu.cs"
 "C:\dev\dotnetcore\BethanysPieShop\src\BethanysPieShop\Components\ShoppingCartSummary.cs"
 "C:\dev\dotnetcore\BethanysPieShop\src\BethanysPieShop\Controllers\ContactController.cs"
 "C:\dev\dotnetcore\BethanysPieShop\src\BethanysPieShop\Controllers\HomeController.cs"
