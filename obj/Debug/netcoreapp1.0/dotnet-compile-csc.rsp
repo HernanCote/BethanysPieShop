@@ -205,6 +205,7 @@
 "C:\dev\dotnetcore\BethanysPieShop\src\BethanysPieShop\Controllers\HomeController.cs"
 "C:\dev\dotnetcore\BethanysPieShop\src\BethanysPieShop\Controllers\OrderController.cs"
 "C:\dev\dotnetcore\BethanysPieShop\src\BethanysPieShop\Controllers\PieController.cs"
+"C:\dev\dotnetcore\BethanysPieShop\src\BethanysPieShop\Controllers\PieDataController.cs"
 "C:\dev\dotnetcore\BethanysPieShop\src\BethanysPieShop\Controllers\ShoppingCartController.cs"
 "C:\dev\dotnetcore\BethanysPieShop\src\BethanysPieShop\Migrations\20170205210821_Initial.cs"
 "C:\dev\dotnetcore\BethanysPieShop\src\BethanysPieShop\Migrations\20170205210821_Initial.Designer.cs"
@@ -236,4 +237,5 @@
 "C:\dev\dotnetcore\BethanysPieShop\src\BethanysPieShop\TagHelpers\EmailTagHelper.cs"
 "C:\dev\dotnetcore\BethanysPieShop\src\BethanysPieShop\ViewModels\HomeViewModel.cs"
 "C:\dev\dotnetcore\BethanysPieShop\src\BethanysPieShop\ViewModels\PiesListViewModel.cs"
+"C:\dev\dotnetcore\BethanysPieShop\src\BethanysPieShop\ViewModels\PieViewModel.cs"
 "C:\dev\dotnetcore\BethanysPieShop\src\BethanysPieShop\ViewModels\ShoppingCartViewModel.cs"
